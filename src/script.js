@@ -1,12 +1,12 @@
-import { fetchData } from './fetchData.js';
-import { ngForJs } from './ngForJs.js';
+import { fetchData } from './js/fetchData.js';
+import { ngForJs } from './js/ngForJs.js';
 
 (async function () {
 	const itemList = document.querySelector("#item-list");
 
 	// use fetchData module to load data from json file
 	try {
-		itemList.items = await fetchData('./people-data.json');
+		itemList.items = await fetchData('./data/avatar-data.json');
 	} catch (error) {
 		console.error("Failed to fetch json items:", error);
 		return;
