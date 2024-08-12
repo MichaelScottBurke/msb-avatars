@@ -45,7 +45,7 @@ This collection of images is not licensed for redistribution or use outside of p
 
 You can view and interact with the project on StackBlitz:
 
-[Open in StackBlitz](https://stackblitz.com/github/username/msb-avatarsMichaelScottBurke/msb-avatars)
+[Open in StackBlitz](https://stackblitz.com/github/msb-avatarsMichaelScottBurke/msb-avatars)
 
 ### Image preview
 
