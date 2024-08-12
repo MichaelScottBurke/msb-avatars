@@ -49,7 +49,3 @@ This collection of images is not licensed for redistribution or use outside of p
 - The images should not be used to represent real persons in any context.
 - The curator of this collection is not responsible for any misuse or copyright infringement resulting from the use of these images.
 - If you are the copyright owner of any of these images and wish for them to be removed, please contact the repository owner.
-
-## Disclaimer
-
-The individuals depicted in these images are not associated with this project. The images should not be used to represent real persons in any context.
