@@ -49,7 +49,7 @@ You can view and interact with the project on StackBlitz:
 
 ### Image preview
 
-![preview of avatars](https://raw.githubusercontent.com/MichaelScottBurke/msb-avatars/main/src/img/msb-avatar-preview.jpg)
+![preview of avatars](https://raw.githubusercontent.com/MichaelScottBurke/msb-avatars/main/dist/preview.jpg)
 
 ## Disclaimer
 
