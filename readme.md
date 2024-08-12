@@ -41,6 +41,14 @@ This collection of images is not licensed for redistribution or use outside of p
 
 ## Demo
 
+### Live Preview
+
+You can view and interact with the project on StackBlitz:
+
+[Open in StackBlitz](https://stackblitz.com/github/username/msb-avatarsMichaelScottBurke/msb-avatars)
+
+### Image preview
+
 ![preview of avatars](https://raw.githubusercontent.com/MichaelScottBurke/msb-avatars/main/src/img/msb-avatar-preview.jpg)
 
 ## Disclaimer
