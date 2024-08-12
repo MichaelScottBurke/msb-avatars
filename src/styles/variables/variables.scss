@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+$msb-font-family: 'Noto Sans Display', sans-serif;
+$msb-font-size-xsmall: 0.65rem;
+$msb-font-size-small: 0.75rem;
+$msb-font-size-medium: 1rem;
+$msb-font-size-large: 1.5rem;
+$msb-font-size-xlarge: 2rem;
+
+$msb-color-accent-low-emphasis-on-light: rgba(black, 0.02);
+
+$msb-color-text-high-emphasis-on-light: rgba(black, 0.85);
+$msb-color-text-mid-emphasis-on-light: rgba(black, 0.75);
+$msb-color-text-low-emphasis-on-light: rgba(black, 0.65);
+$msb-color-text-disabled-on-light: rgba(black, 0.35);
+
+$msb-color-text-high-emphasis-on-dark: rgba(white, 0.85);
+$msb-color-text-mid-emphasis-on-dark: rgba(white, 0.75);
+$msb-color-text-low-emphasis-on-dark: rgba(white, 0.65);
+$msb-color-text-disabled-on-dark: rgba(white, 0.35);
+
+$msb-color-surface-light: #fff;
+$msb-color-surface-light-darker: #f5f5f5;
+
+$msb-color-surface-dark: #333;
+$msb-color-surface-dark-darker: #121212;
+
+$msb-divider-on-light: rgba(black, 0.15);

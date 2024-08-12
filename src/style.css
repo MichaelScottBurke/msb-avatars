@@ -1,0 +1,288 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  padding: 1.5rem;
+  text-align: left;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+header p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+footer {
+  font-size: 0.65rem;
+  padding: 0.5rem;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.75);
+  padding-bottom: 3.5rem;
+}
+
+photo.msb-avatar,
+.msb-avatar {
+  display: inline-block;
+  border-radius: 50%;
+  background-position: center center;
+  width: 3rem;
+  height: 3rem;
+  overflow: hidden;
+}
+photo.msb-avatar[data-size=xSmall],
+.msb-avatar[data-size=xSmall] {
+  width: 1rem;
+  height: 1rem;
+  background-size: 1rem;
+}
+photo.msb-avatar[data-size=small],
+.msb-avatar[data-size=small] {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-size: 2.5rem;
+}
+photo.msb-avatar[data-size=medium],
+.msb-avatar[data-size=medium] {
+  width: 3rem;
+  height: 3rem;
+  background-size: 3rem;
+}
+photo.msb-avatar[data-size=large],
+.msb-avatar[data-size=large] {
+  width: 4rem;
+  height: 4rem;
+  background-size: 4rem;
+}
+photo.msb-avatar[data-size=xLarge],
+.msb-avatar[data-size=xLarge] {
+  width: 6rem;
+  height: 6rem;
+  background-size: 6rem;
+}
+photo.msb-avatar[data-shape=square],
+.msb-avatar[data-shape=square] {
+  border-radius: 0;
+}
+photo.msb-avatar[data-shape=round],
+.msb-avatar[data-shape=round] {
+  border-radius: 50%;
+}
+photo.msb-avatar img,
+.msb-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Noto Sans Display", sans-serif;
+  line-height: 1.3;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  padding: 1.5rem;
+  min-height: 60vh;
+  padding-top: 0;
+}
+
+header,
+main {
+  margin: 0 auto;
+  max-width: 60rem;
+}
+
+ul.msb-avatar-gallery {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+}
+ul.msb-avatar-gallery li {
+  list-style: none;
+}
+
+.msb-avatar-item {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.msb-avatar-item picture {
+  background: rgba(0, 0, 0, 0.02);
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  flex: 1 1 auto;
+  align-content: center;
+}
+.msb-avatar-item img {
+  max-width: 100%;
+  height: auto;
+}
+.msb-avatar-item figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.85);
+}

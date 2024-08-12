@@ -1,0 +1,51 @@
+photo.msb-avatar,
+.msb-avatar {
+  $xSmall: 1rem;
+  $small: 2.5rem;
+  $medium: 3rem;
+  $large: 4rem;
+  $xLarge: 6rem;
+  display: inline-block;
+  border-radius: 50%;
+  background-position: center center;
+  width: $medium;
+  height: $medium;
+  overflow: hidden;
+  &[data-size='xSmall'] {
+    width: $xSmall;
+    height: $xSmall;
+    background-size: $xSmall;
+  }
+  &[data-size='small'] {
+    width: $small;
+    height: $small;
+    background-size: $small;
+  }
+  &[data-size='medium'] {
+    width: $medium;
+    height: $medium;
+    background-size: $medium;
+  }
+  &[data-size='large'] {
+    width: $large;
+    height: $large;
+    background-size: $large;
+  }
+  &[data-size='xLarge'] {
+    width: $xLarge;
+    height: $xLarge;
+    background-size: $xLarge;
+  }
+  &[data-shape='square'] {
+    border-radius: 0;
+  }
+  &[data-shape='round'] {
+    border-radius: 50%;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Avatar Library</title>
+	<link rel="stylesheet" href="./style.min.css" />
+</head>
+
+<body>
+	<header>
+		<h1>Avatar Gallery</h1>
+		<p>A collection of placeholder avatars for UX wireframes and engineering.</p>
+	</header>
+
+	<main>
+		<section>
+			<ul id="item-list" class="msb-avatar-gallery">
+				<li class="msb-avatar-item" *ngFor="let item of items">
+					<photo class="msb-avatar">
+						<img src="{{item.url}}" alt="{{item.alt}}">
+					</photo>
+					<figcaption>{{item.label}}</figcaption>
+				</li>
+			</ul>
+		</section>
+	</main>
+
+	<footer>
+		<p>
+			&copy; 2024 Michael Scott Burke. avatars are for testing and prototyping
+			purposes only.
+		</p>
+	</footer>
+	<script type="module" src="./script.js"></script>
+</body>
+
+</html>

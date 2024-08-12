@@ -17,8 +17,10 @@ These images are provided solely for prototyping and development purposes. They 
 
 The repository contains:
 
-- Multiple JPEG images of people's faces
-- No additional data or information about the individuals depicted
+- Multiple JPG images of people's faces
+- - No additional data or information about the individuals depicted
+- Index.html shows all of the images available
+- avatar.scss styles avatars either round or square to use in various layouts
 
 ## Legal Notice
 
