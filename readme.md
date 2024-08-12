@@ -39,6 +39,10 @@ This collection of images is not licensed for redistribution or use outside of p
 - Users of this repository are responsible for ensuring they have the necessary rights or permissions before using these images in any project or context beyond personal prototyping.
 - These images must not be used in any public, commercial, or production environments.
 
+## Demo
+
+![preview of avatars](https://raw.githubusercontent.com/MichaelScottBurke/msb-avatars/main/src/img/msb-avatar-preview.jpg)
+
 ## Disclaimer
 
 - The individuals depicted in these images are not associated with this project.
